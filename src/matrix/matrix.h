@@ -7,7 +7,6 @@ class Matrix{
         int cols;
         int* matrix;
     public:
-        Matrix();
         Matrix(int r, int c);
         Matrix(const Matrix& m);
         ~Matrix();
