@@ -15,7 +15,7 @@ DEPEXT      := d
 OBJEXT      := o
 
 #Flags, Libraries and Includes
-CFLAGS      := -std=c++14 -Wall -g -MMD
+CFLAGS      := -std=c++14 -Wall -g #-MMD
 #LIB         := -fopenmp -lm -larmadillo
 #INC         := -I$(INCDIR) -I/usr/local/include
 #INCDEP      := -I$(INCDIR)
