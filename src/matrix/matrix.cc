@@ -22,3 +22,12 @@ void Matrix::setMatrix(){
         currCol %= cols;
     }
 }
+
+void Matrix::printMatrix(){
+    std::cout<<"Printing Matrix"<<std::endl;
+    for(int i = 0; i<rows; i++){
+        for(int j = 0; j<cols; j++)
+            std::cout<<matrix[j + i*rows];
+        std::cout<<std::endl;
+    }
+}

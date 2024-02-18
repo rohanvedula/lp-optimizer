@@ -12,6 +12,7 @@ class Matrix{
         ~Matrix();
 
         void setMatrix();
+        void printMatrix();
 
         Matrix operator*(const Matrix& other) const;
         Matrix operator+(const Matrix& other) const;
